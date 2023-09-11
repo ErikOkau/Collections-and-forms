@@ -96,12 +96,12 @@ function edit() {
         return console.log("ingen tall")
       }
     
-      /* var hasSpecialCharacter = /[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/.test(password)
+      var hasSpecialCharacter = /[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/.test(password)
     
       if (!hasSpecialCharacter) {
         // ERROR: PASSORDET HAR IKKE SPESIALTEGN
         return console.log("mangel spesialtegn")
-      } */
+      } 
 
 
 }
