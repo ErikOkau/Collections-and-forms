@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div class="forms">
+
+        <div class="title">
+            <h1>Registrer</h1>
+        </div>
+
+        <div class="input_box">
+            <input type="text" name="name" id="name" placeholder="Fornavn" required>
+            <input type="text" name="surname" id="surname" placeholder="Etternavn" required>
+            <input type="text" name="address" id="address" placeholder="Addresse" required>
+            <input type="number" name="postnummer" id="postnummer" placeholder="Postnummer" required>
+            <input type="text" name="poststed" id="poststed" placeholder="Poststed" required>
+            <input type="email" name="email" id="email" placeholder="E-post" required>
+            <input type="tel" name="phone" id="phone" placeholder="Telefon" required>
+            <input type="password" name="password" id="password" placeholder="Passord" required> 
+            <p>Passord må ha 10 tegn, tall og spesialtegn</p>
+        </div>
+
+        <div class="button">
+            <button type="submit" id="submitBtn" onclick="submit()">Submit</button>
+            <button type="button" id="editBtn" onclick="edit()">Edit</button>
+            <button type="button" id="finishBtn" onclick="finish()">Finish</button>
+        </div>
+    </div>
+ 
+   
+</body>
+</html>
+
+
+<style>
+    p {
+        font-size: 12px;
+        color: red;
+        margin-top: -1rem;
+    }
+</style>
